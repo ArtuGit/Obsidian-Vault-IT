@@ -1,0 +1,1 @@
+[[Gartner 7Rs framework]]

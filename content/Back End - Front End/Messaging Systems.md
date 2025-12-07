@@ -1,0 +1,2 @@
+[[Patterns]]
+[[RabitMQ Kafka Comparison]]

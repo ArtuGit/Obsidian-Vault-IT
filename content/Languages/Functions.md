@@ -1,0 +1,6 @@
+- [[Functions as First-Class Objects]]
+- [[Higher-Order Functions]]
+- [[Pure Functions]]
+- [[Arrow functions]]
+- [[Anonymous functions]]
+- [[Call, Apply and Bind]]

@@ -1,0 +1,309 @@
+{
+  "main": {
+    "id": "e166a374aa45d95c",
+    "type": "split",
+    "children": [
+      {
+        "id": "93d9b85cc2a74cfe",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b1e03a634daee559",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Welcome.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Welcome"
+            }
+          },
+          {
+            "id": "17a05f9460667ac3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Back End - Front End/Protocols.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Protocols"
+            }
+          },
+          {
+            "id": "fe4098dcca4fc4c0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "AI Agents.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "AI Agents"
+            }
+          },
+          {
+            "id": "596368365399bd81",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Welcome.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Welcome"
+            }
+          },
+          {
+            "id": "989ff23ade3689f6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Architecture/Code Complexity.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Code Complexity"
+            }
+          },
+          {
+            "id": "c19853f920a2e949",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.10.3"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.10.3"
+            }
+          },
+          {
+            "id": "be1a6601384d8341",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.10.6"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.10.6"
+            }
+          }
+        ],
+        "currentTab": 6
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "2ff9489526edb56a",
+    "type": "split",
+    "children": [
+      {
+        "id": "bc515b2a9bc881aa",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8912d4ec699bb0dc",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "d3a19e8c20bbcd9c",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "fe08f6bde4d63d9f",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 420.5
+  },
+  "right": {
+    "id": "62c4723663f0f59c",
+    "type": "split",
+    "children": [
+      {
+        "id": "bcd687c37ad87e21",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1818b7e8dd37badd",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Welcome.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Welcome"
+            }
+          },
+          {
+            "id": "71ad47963d3c62e4",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Welcome.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Welcome"
+            }
+          },
+          {
+            "id": "502043a4bbc98bf3",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "5c79fde82b5595b7",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Welcome.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Welcome"
+            }
+          },
+          {
+            "id": "7d13626759b0aec9",
+            "type": "leaf",
+            "state": {
+              "type": "graph-analysis",
+              "state": {},
+              "icon": "GA-ICON",
+              "title": "Graph Analysis"
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 1119.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "quickadd:QuickAdd": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "audio-recorder:Start/stop recording": false,
+      "workspaces:Manage workspace layouts": false,
+      "templater-obsidian:Templater": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "7d13626759b0aec9",
+  "lastOpenFiles": [
+    "Architecture/Dependency Injection Pattern.md",
+    "Architecture/Patterns.md",
+    "Welcome.md",
+    "Architecture/Saga Pattern.md",
+    "ToDo.md",
+    "Back End - Front End/Server-side rendering (SSR).md",
+    "Back End - Front End/Websockets Alternative.md",
+    "Back End - Front End/JSON-RPC.md",
+    "Back End - Front End/Lazy Loading.md",
+    "Back End - Front End/Protocols.md",
+    "Back End - Front End/GraphQL.md",
+    "Back End - Front End/GraphQL Senior Developer Interview Guide - Complete Questions & Answers.md",
+    "Architecture/Code Complexity.md",
+    "Back End - Front End/RabbitMQ.md",
+    "Back End - Front End/RabitMQ Kafka Comparison.md",
+    "Untitled",
+    "Back End - Front End/Messaging Systems.md",
+    "Back End - Front End/Message Brokers.md",
+    "Frameworks, Libs/Symfony PHP Framework.md",
+    "Languages/PHP.md",
+    "AI Ecosystem/AI Ecosystem.md",
+    "AI Agents.md",
+    "AI Ecosystem/AI Toooling.md",
+    "AI Ecosystem/Tools and frameworks for building AI Agents.md",
+    "Storages/Comparison of popular vector databases.md",
+    "Storages/Vector DBs.md",
+    "Images/Vector-DBs.png",
+    "Retrieval-Augmented Generation (RAG).md",
+    "Images",
+    "Security",
+    "Storages",
+    "Design",
+    "AI Ecosystem",
+    "Untitled 1",
+    "Cloud",
+    "Frameworks, Libs",
+    "Architecture",
+    "Untitled.canvas"
+  ]
+}
