@@ -12,9 +12,7 @@ const config: QuartzConfig = {
     pageTitleSuffix: " · IT knowledge base",
     enableSPA: true,
     enablePopovers: true,
-    analytics: {
-      provider: null,
-    },
+    analytics: null,
     locale: "en-US",
     baseUrl: "artu.github.io/English",
     ignorePatterns: ["private", "templates", ".obsidian", "README.md"],
