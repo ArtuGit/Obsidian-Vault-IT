@@ -13,10 +13,10 @@ Domain 5, **Context Management & Reliability** (15%), specifically the confidenc
 
 Calibration exposes how unreliable the raw number can be — the *same* reported score means different real-world accuracy depending on what it's attached to:
 
-| Reported confidence | Field type   | Actual accuracy (measured against a labelled set) |
-| -------------------- | ------------- | ---------------------------------------------------- |
-| 0.90                  | date fields   | 94%                                                    |
-| 0.90                  | amount fields | 82%                                                    |
+| Reported confidence | Field type    | Actual accuracy (measured against a labelled set) |
+| ------------------- | ------------- | ------------------------------------------------- |
+| 0.90                | date fields   | 94%                                               |
+| 0.90                | amount fields | 82%                                               |
 
 That gap is exactly why a confidence score by itself can't be the automation gate — see [[Confidence Thresholds]] for the calibration step that turns it into one.
 

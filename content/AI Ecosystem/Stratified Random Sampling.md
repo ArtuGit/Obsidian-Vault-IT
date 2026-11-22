@@ -13,12 +13,12 @@ Domain 5, **Context Management & Reliability** (15%), Human Review & Confidence 
 
 ## Exam traps (all four are tested)
 
-| Trap | Why it's wrong |
-|---|---|
-| Using aggregate accuracy for automation decisions | "97% overall" can hide 40%+ error rates on a specific document type or field |
-| Sampling only low-confidence extractions | Misses novel error patterns that show up in already-automated (high-confidence) items |
-| Using uncalibrated confidence scores | The same reported score means different actual accuracy per field type — see [[Confidence Score]] |
-| Even reviewer capacity distribution | Wastes limited review capacity; the queue should serve the highest-uncertainty item next, not the next one chronologically |
+| Trap                                              | Why it's wrong                                                                                                             |
+| ------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------- |
+| Using aggregate accuracy for automation decisions | "97% overall" can hide 40%+ error rates on a specific document type or field                                               |
+| Sampling only low-confidence extractions          | Misses novel error patterns that show up in already-automated (high-confidence) items                                      |
+| Using uncalibrated confidence scores              | The same reported score means different actual accuracy per field type — see [[Confidence Score]]                          |
+| Even reviewer capacity distribution               | Wastes limited review capacity; the queue should serve the highest-uncertainty item next, not the next one chronologically |
 
 ## Worked example
 

@@ -4,13 +4,13 @@
 
 ## Model-driven decision vs. a hardcoded decision tree
 
-| | **Prompt Chaining** (hardcoded) | **Dynamic Adaptive Decomposition** (model-driven) |
-|---|---|---|
-| Definition | "A fixed sequential decomposition: the task is split at design time into an ordered series of steps, and each step receives the previous step's output." | "Letting the model decide at runtime how to break a task up, rather than fixing the steps in advance." |
-| When it fits | Known steps, structured input | Open-ended scope, unknown complexity |
-| Strength | Consistency, debuggability | Adaptability to what it actually finds |
-| Weakness | Cannot adapt to unexpected findings | Less predictable, harder to debug |
-| Example use case | Code review pipeline, document processing, compliance checks | Legacy system exploration, security audits, debugging an unfamiliar codebase |
+|                  | **Prompt Chaining** (hardcoded)                                                                                                                          | **Dynamic Adaptive Decomposition** (model-driven)                                                      |
+| ---------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------ |
+| Definition       | "A fixed sequential decomposition: the task is split at design time into an ordered series of steps, and each step receives the previous step's output." | "Letting the model decide at runtime how to break a task up, rather than fixing the steps in advance." |
+| When it fits     | Known steps, structured input                                                                                                                            | Open-ended scope, unknown complexity                                                                   |
+| Strength         | Consistency, debuggability                                                                                                                               | Adaptability to what it actually finds                                                                 |
+| Weakness         | Cannot adapt to unexpected findings                                                                                                                      | Less predictable, harder to debug                                                                      |
+| Example use case | Code review pipeline, document processing, compliance checks                                                                                             | Legacy system exploration, security audits, debugging an unfamiliar codebase                           |
 
 >[!TIP] Selection rule the exam tests
 > **Known steps + structured input → hardcode it** (prompt chaining). **Open-ended scope + unknown complexity → let the model decide** (dynamic decomposition). Hard-coding investigation steps for an open-ended problem "tends to either miss the actual problem or waste effort gathering irrelevant data."
