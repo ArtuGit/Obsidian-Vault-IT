@@ -8,12 +8,12 @@ It's one of several built-in subagent types (alongside **Plan** — can explore 
 
 The exam doesn't test "Explore" by name so much as the general subagent mechanics it's an instance of:
 
-| Term | Definition |
-|---|---|
-| **Subagent** | "A separate Claude instance spawned by a coordinator to handle a scoped piece of work. It runs in its own context window with its own system prompt and its own tool list." |
-| **Task Tool (Agent)** | "The tool a coordinator calls to delegate work to a subagent. The exam guide names it `Task`. Current Claude Code renamed it to `Agent`." |
-| **AgentDefinition** | "The declaration of a subagent: its description, its instructions, and the `tools` field that scopes which tools it can reach." |
-| **allowedTools** | "The list of tools a given agent is permitted to call. For a coordinator this is a gate on delegation itself: unless `allowedTools` includes `Task` (or `Agent`), the coordinator cannot spawn subagents." |
+| Term                  | Definition                                                                                                                                                                                                 |
+| --------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Subagent**          | "A separate Claude instance spawned by a coordinator to handle a scoped piece of work. It runs in its own context window with its own system prompt and its own tool list."                                |
+| **Task Tool (Agent)** | "The tool a coordinator calls to delegate work to a subagent. The exam guide names it `Task`. Current Claude Code renamed it to `Agent`."                                                                  |
+| **AgentDefinition**   | "The declaration of a subagent: its description, its instructions, and the `tools` field that scopes which tools it can reach."                                                                            |
+| **allowedTools**      | "The list of tools a given agent is permitted to call. For a coordinator this is a gate on delegation itself: unless `allowedTools` includes `Task` (or `Agent`), the coordinator cannot spawn subagents." |
 
 Explore, as an `AgentDefinition`, scopes its `tools` field to read-only tools (search/read, no edit/write) — that scoping is *why* it's safe to delegate to freely: it structurally cannot modify anything, regardless of what it's asked.
 
