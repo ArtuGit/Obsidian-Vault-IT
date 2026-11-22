@@ -35,6 +35,7 @@ This is a study hub for the **Claude Certified Architect – Foundations** exam 
 ### Domain 5 — Context Management & Reliability
 
 - [[Confidence Score]] — the raw, uncalibrated number a model reports
+- [[Confidence Calibration]] — checking the score against actual accuracy on a labelled validation set
 - [[Confidence Thresholds]] — the calibrated cutoff derived from that score
 - [[Confidence-Based Routing]] — routing/escalation decisions driven by calibrated confidence
 - [[Stratified Random Sampling]] — auditing automated (high-confidence) output to catch hidden error patterns

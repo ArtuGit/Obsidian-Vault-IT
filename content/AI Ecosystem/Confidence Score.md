@@ -1,6 +1,6 @@
 ## What it is
 
-A **confidence score** is the raw, self-reported numeric estimate a model or ML pipeline attaches to a single output or field — e.g. `{"amount": 1280.50, "confidence": 0.62}`. On its own, this number is just a claim the model makes about itself. It only becomes decision-useful after **calibration**: checking it against actual accuracy on a labelled validation set. See [[Confidence Thresholds]] for what happens once it's calibrated, and [[Confidence-Based Routing]] for how it drives routing decisions.
+A **confidence score** is the raw, self-reported numeric estimate a model or ML pipeline attaches to a single output or field — e.g. `{"amount": 1280.50, "confidence": 0.62}`. On its own, this number is just a claim the model makes about itself. It only becomes decision-useful after **[[Confidence Calibration|calibration]]**: checking it against actual accuracy on a labelled validation set. See [[Confidence Thresholds]] for what happens once it's calibrated, and [[Confidence-Based Routing]] for how it drives routing decisions.
 
 ## Why the exam tests this
 
@@ -35,6 +35,7 @@ Each field carries its own score because accuracy varies by field type, not just
 
 ## Related
 
+- [[Confidence Calibration]]
 - [[Confidence Thresholds]]
 - [[Confidence-Based Routing]]
 - [[Stratified Random Sampling]]
