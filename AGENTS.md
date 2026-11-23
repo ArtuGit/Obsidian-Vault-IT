@@ -18,7 +18,7 @@ There is no separate lint script or single-test invocation beyond what `tsx --te
 
 ## Deployment
 
-`.github/workflows/deploy.yml` builds on every push to `main` (`npm ci` + `npm run build`) and deploys `public/` to GitHub Pages. There's no separate staging step — pushing to `main` publishes the site.
+`.github/workflows/deploy.yml` runs on Node 24 for pull requests and pushes to `main`: `npm ci`, typecheck, Prettier check of code paths (`content/` is excluded), `npm test`, and `npm run build`. Only pushes to `main` (or a manual dispatch) run the deploy job that publishes `public/` to GitHub Pages. There's no separate staging step — pushing to `main` publishes the site.
 
 ## Architecture
 

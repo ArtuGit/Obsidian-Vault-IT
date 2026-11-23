@@ -147,7 +147,7 @@ export async function handleCreate(argv) {
             placeholder:
               "On most terminal emulators, you can drag and drop a folder into the window and it will paste the full path",
             validate(fp) {
-              const fullPath = escapePath(fp)
+              const fullPath = escapePath(fp ?? "")
               if (!fs.existsSync(fullPath)) {
                 return "The given path doesn't exist"
               } else if (!fs.lstatSync(fullPath).isDirectory()) {
