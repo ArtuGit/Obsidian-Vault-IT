@@ -38,11 +38,15 @@ export const defaultContentPageLayout: PageLayout = {
         { Component: Component.ReaderMode() },
       ],
     }),
-    Component.Explorer(),
+    Component.DesktopOnly(Component.TableOfContents()),
+    Component.DesktopOnly(Component.Graph()),
+    // Explorer stays in the left sidebar on mobile, where Quartz turns it into the hamburger menu
+    Component.MobileOnly(Component.Explorer()),
   ],
   right: [
-    Component.Graph(),
-    Component.DesktopOnly(Component.TableOfContents()),
+    // on mobile the left sidebar is a one-row top bar, so the graph stays below the note there
+    Component.MobileOnly(Component.Graph()),
+    Component.DesktopOnly(Component.Explorer()),
     Component.Backlinks(),
   ],
 }
