@@ -69,12 +69,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "index.md",
+                "file": "AGENTS.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "AGENTS"
             }
           }
         ],
@@ -320,13 +320,13 @@
     "Node.js/Node.js.md",
     "index.md",
     "Node.js/Modules.md",
-    "AGENTS.md",
     "ToDo.md",
     "AI Ecosystem/Claude Certified Architect (Foundations).md",
     "AI Ecosystem/Anthropic Exams.md",
     "AI Ecosystem/Providers.md",
     "AI Ecosystem/AI Ecosystem.md",
     "AI Ecosystem/AI Agents.md",
+    "AGENTS.md",
     "AI Ecosystem/LangChain.md",
     "AI Ecosystem/Anthropic Exam.md",
     "AI Ecosystem/detected_pattern Fields.md",
