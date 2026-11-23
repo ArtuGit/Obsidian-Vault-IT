@@ -1,2 +1,2 @@
-[[Patterns]]
-[[RabitMQ Kafka Comparison]]
+- [[Patterns]]
+- [[RabitMQ Kafka Comparison]]

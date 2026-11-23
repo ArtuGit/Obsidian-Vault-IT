@@ -1,4 +1,4 @@
-[[GraphQL]]
-[[RPC]]
-[[JSON-RPC]]
-[[Websockets Alternative]]
+- [[GraphQL]]
+- [[RPC]]
+- [[JSON-RPC]]
+- [[Websockets Alternative]]

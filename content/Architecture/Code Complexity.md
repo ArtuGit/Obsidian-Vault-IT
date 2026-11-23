@@ -35,9 +35,8 @@ Understanding space complexity becomes crucial when dealing with large datasets 
 
 Complexity theory organizes computational problems into classes based on the resources required to solve them. The two most famous classes are P and NP, which lie at the heart of one of computer science's most significant unsolved problems.
 
-**P (Polynomial Time)** contains problems that can be solved in polynomial time—meaning there exists an algorithm that solves the problem in O(n^k) time for some constant k. Most problems we encounter in everyday programming fall into this category: sorting arrays, searching databases, and basic graph algorithms.
-
-**NP (Nondeterministic Polynomial)** encompasses problems where solutions can be verified in polynomial time, even if finding the solution initially might take much longer. The traveling salesman problem exemplifies this class: given a proposed route, you can quickly verify whether it visits all cities within a certain distance, but finding the optimal route requires examining potentially exponential possibilities.
+- **P (Polynomial Time)** contains problems that can be solved in polynomial time—meaning there exists an algorithm that solves the problem in O(n^k) time for some constant k. Most problems we encounter in everyday programming fall into this category: sorting arrays, searching databases, and basic graph algorithms.
+- **NP (Nondeterministic Polynomial)** encompasses problems where solutions can be verified in polynomial time, even if finding the solution initially might take much longer. The traveling salesman problem exemplifies this class: given a proposed route, you can quickly verify whether it visits all cities within a certain distance, but finding the optimal route requires examining potentially exponential possibilities.
 
 The P vs NP question asks whether these classes are equivalent—can every problem whose solution is quickly verifiable also be quickly solvable? Most computer scientists believe P ≠ NP, suggesting that some problems are fundamentally harder to solve than to verify.
 

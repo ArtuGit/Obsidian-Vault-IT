@@ -10,11 +10,9 @@ Producers are services or applications that publish events to EventBridge. They 
 
 ### Producer Patterns
 
-**Direct Publishing**: Applications directly send events to EventBridge using the AWS SDK.
-
-**Batch Publishing**: Multiple events are sent together for better throughput and cost efficiency.
-
-**Enriched Events**: Producers add metadata like timestamps, correlation IDs, and event versions for better traceability.
+- **Direct Publishing**: Applications directly send events to EventBridge using the AWS SDK.
+- **Batch Publishing**: Multiple events are sent together for better throughput and cost efficiency.
+- **Enriched Events**: Producers add metadata like timestamps, correlation IDs, and event versions for better traceability.
 
 ### Producer Best Practices
 
@@ -40,41 +38,28 @@ Consumers are services that receive and process events from EventBridge. They su
 
 ### Consumer Types
 
-**Lambda Functions**: Serverless event processing with automatic scaling
-
-**SQS Queues**: Buffered processing with guaranteed delivery and retry mechanisms
-
-**SNS Topics**: Fan-out to multiple subscribers for parallel processing
-
-**Step Functions**: Orchestrated workflows triggered by events
-
-**Kinesis Data Streams**: Real-time stream processing
-
-**API Destinations**: HTTP endpoints for external system integration
+- **Lambda Functions**: Serverless event processing with automatic scaling
+- **SQS Queues**: Buffered processing with guaranteed delivery and retry mechanisms
+- **SNS Topics**: Fan-out to multiple subscribers for parallel processing
+- **Step Functions**: Orchestrated workflows triggered by events
+- **Kinesis Data Streams**: Real-time stream processing
+- **API Destinations**: HTTP endpoints for external system integration
 
 ### Consumer Patterns
 
-**Single Event Handler**: One consumer processes one event type
-
-**Multi-Event Handler**: One consumer processes multiple related event types
-
-**Event Router**: Consumers route events to different handlers based on event content
-
-**Batch Processing**: SQS consumers process multiple events together
-
-**Dead Letter Queues**: Failed events are sent to separate queues for investigation
+- **Single Event Handler**: One consumer processes one event type
+- **Multi-Event Handler**: One consumer processes multiple related event types
+- **Event Router**: Consumers route events to different handlers based on event content
+- **Batch Processing**: SQS consumers process multiple events together
+- **Dead Letter Queues**: Failed events are sent to separate queues for investigation
 
 ### Consumer Best Practices
 
-**Idempotency**: Handle duplicate events gracefully using event IDs
-
-**Error Handling**: Implement proper retry logic and dead letter queues
-
-**Monitoring**: Track processing metrics and failures
-
-**Scaling**: Configure appropriate concurrency limits and batch sizes
-
-**Event Filtering**: Use EventBridge rules to filter events at the service level
+- **Idempotency**: Handle duplicate events gracefully using event IDs
+- **Error Handling**: Implement proper retry logic and dead letter queues
+- **Monitoring**: Track processing metrics and failures
+- **Scaling**: Configure appropriate concurrency limits and batch sizes
+- **Event Filtering**: Use EventBridge rules to filter events at the service level
 
 ## EventBridge Rules and Filtering
 
@@ -179,15 +164,11 @@ Consider costs when replicating events across regions for disaster recovery.
 
 ## Common Use Cases
 
-**Order Processing**: E-commerce order events trigger inventory updates, payment processing, and shipping notifications.
-
-**User Management**: User registration events trigger welcome emails, preference setup, and analytics tracking.
-
-**Data Pipeline**: File upload events trigger data processing, validation, and storage workflows.
-
-**Audit and Compliance**: All business events are routed to audit systems for compliance tracking.
-
-**Real-time Analytics**: Business events feed into analytics systems for real-time dashboards and reporting.
+- **Order Processing**: E-commerce order events trigger inventory updates, payment processing, and shipping notifications.
+- **User Management**: User registration events trigger welcome emails, preference setup, and analytics tracking.
+- **Data Pipeline**: File upload events trigger data processing, validation, and storage workflows.
+- **Audit and Compliance**: All business events are routed to audit systems for compliance tracking.
+- **Real-time Analytics**: Business events feed into analytics systems for real-time dashboards and reporting.
 
 ## Getting Started
 

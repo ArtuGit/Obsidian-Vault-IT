@@ -9,15 +9,11 @@ The current specification is JSON-RPC 2.0, which was released in 2010 and has be
 
 ## Key Features
 
-**Simplicity**: JSON-RPC has a minimal specification that's easy to understand and implement. The entire protocol can be learned in minutes.
-
-**Language Agnostic**: Since it uses JSON for data exchange, JSON-RPC can be implemented in any programming language that supports JSON parsing.
-
-**Transport Independent**: The protocol doesn't dictate how messages are transmitted, allowing flexibility in choosing the transport layer.
-
-**Bidirectional**: JSON-RPC supports both client-to-server and server-to-client calls, enabling real-time communication patterns.
-
-**Batch Operations**: Multiple requests can be sent in a single batch, improving efficiency for scenarios requiring multiple operations.
+- **Simplicity**: JSON-RPC has a minimal specification that's easy to understand and implement. The entire protocol can be learned in minutes.
+- **Language Agnostic**: Since it uses JSON for data exchange, JSON-RPC can be implemented in any programming language that supports JSON parsing.
+- **Transport Independent**: The protocol doesn't dictate how messages are transmitted, allowing flexibility in choosing the transport layer.
+- **Bidirectional**: JSON-RPC supports both client-to-server and server-to-client calls, enabling real-time communication patterns.
+- **Batch Operations**: Multiple requests can be sent in a single batch, improving efficiency for scenarios requiring multiple operations.
 
 ## Protocol Structure
 
@@ -151,15 +147,11 @@ The server responds with an array of responses in the same order.
 
 ## Use Cases and Applications
 
-**Web APIs**: JSON-RPC provides a structured alternative to REST APIs, especially useful when you need to perform complex operations that don't map well to HTTP verbs.
-
-**Real-time Applications**: When combined with WebSockets, JSON-RPC enables bidirectional real-time communication between clients and servers.
-
-**Microservices**: The protocol's simplicity makes it ideal for inter-service communication in microservice architectures.
-
-**Blockchain and Cryptocurrency**: Many blockchain platforms, including Ethereum, use JSON-RPC for their API interfaces.
-
-**IoT and Embedded Systems**: The lightweight nature of JSON-RPC makes it suitable for resource-constrained environments.
+- **Web APIs**: JSON-RPC provides a structured alternative to REST APIs, especially useful when you need to perform complex operations that don't map well to HTTP verbs.
+- **Real-time Applications**: When combined with WebSockets, JSON-RPC enables bidirectional real-time communication between clients and servers.
+- **Microservices**: The protocol's simplicity makes it ideal for inter-service communication in microservice architectures.
+- **Blockchain and Cryptocurrency**: Many blockchain platforms, including Ethereum, use JSON-RPC for their API interfaces.
+- **IoT and Embedded Systems**: The lightweight nature of JSON-RPC makes it suitable for resource-constrained environments.
 
 ## Advantages and Disadvantages
 
@@ -180,25 +172,18 @@ The server responds with an array of responses in the same order.
 
 ## Best Practices
 
-**Use Meaningful Method Names**: Choose descriptive names that clearly indicate what the method does.
-
-**Validate Parameters**: Always validate incoming parameters on the server side to prevent errors and security issues.
-
-**Handle Errors Gracefully**: Provide meaningful error messages and use appropriate error codes.
-
-**Consider Batching**: Use batch requests when you need to perform multiple operations to reduce network overhead.
-
-**Implement Proper Authentication**: Since JSON-RPC doesn't include authentication, implement it at the transport or application layer.
-
-**Use HTTPS**: When transmitting sensitive data, always use encrypted transport protocols.
+- **Use Meaningful Method Names**: Choose descriptive names that clearly indicate what the method does.
+- **Validate Parameters**: Always validate incoming parameters on the server side to prevent errors and security issues.
+- **Handle Errors Gracefully**: Provide meaningful error messages and use appropriate error codes.
+- **Consider Batching**: Use batch requests when you need to perform multiple operations to reduce network overhead.
+- **Implement Proper Authentication**: Since JSON-RPC doesn't include authentication, implement it at the transport or application layer.
+- **Use HTTPS**: When transmitting sensitive data, always use encrypted transport protocols.
 
 ## Comparison with Other Protocols
 
-**vs REST**: JSON-RPC is more suitable for action-oriented APIs, while REST is better for resource-oriented designs. JSON-RPC has less overhead for complex operations but lacks HTTP's built-in caching and status codes.
-
-**vs GraphQL**: GraphQL offers more powerful querying capabilities and type safety, but JSON-RPC is simpler and has less overhead for straightforward remote procedure calls.
-
-**vs gRPC**: gRPC offers better performance and strong typing through Protocol Buffers, but JSON-RPC is more human-readable and easier to debug.
+- **vs REST**: JSON-RPC is more suitable for action-oriented APIs, while REST is better for resource-oriented designs. JSON-RPC has less overhead for complex operations but lacks HTTP's built-in caching and status codes.
+- **vs GraphQL**: GraphQL offers more powerful querying capabilities and type safety, but JSON-RPC is simpler and has less overhead for straightforward remote procedure calls.
+- **vs gRPC**: gRPC offers better performance and strong typing through Protocol Buffers, but JSON-RPC is more human-readable and easier to debug.
 
 ## Conclusion
 

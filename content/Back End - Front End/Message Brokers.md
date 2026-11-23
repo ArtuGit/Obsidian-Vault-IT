@@ -12,25 +12,19 @@ A message broker is a software module that translates messages from the messagin
 
 Message brokers operate on several fundamental components that work together to ensure reliable message delivery:
 
-**Producers** are applications or services that send messages to the broker. They publish messages without needing to know who will consume them or when they will be processed. This decoupling is one of the key advantages of message-oriented middleware.
-
-**Consumers** are applications or services that receive and process messages from the broker. They can subscribe to specific topics or queues and process messages at their own pace, enabling asynchronous processing patterns.
-
-**Messages** are the units of data transmitted through the broker. They typically contain both a payload (the actual data) and metadata such as headers, timestamps, and routing information.
-
-**Queues** are data structures that store messages in a first-in-first-out (FIFO) manner. They provide point-to-point communication where each message is consumed by exactly one consumer.
-
-**Topics** enable publish-subscribe patterns where messages are broadcast to multiple subscribers. Publishers send messages to topics, and all subscribed consumers receive copies of these messages.
+- **Producers** are applications or services that send messages to the broker. They publish messages without needing to know who will consume them or when they will be processed. This decoupling is one of the key advantages of message-oriented middleware.
+- **Consumers** are applications or services that receive and process messages from the broker. They can subscribe to specific topics or queues and process messages at their own pace, enabling asynchronous processing patterns.
+- **Messages** are the units of data transmitted through the broker. They typically contain both a payload (the actual data) and metadata such as headers, timestamps, and routing information.
+- **Queues** are data structures that store messages in a first-in-first-out (FIFO) manner. They provide point-to-point communication where each message is consumed by exactly one consumer.
+- **Topics** enable publish-subscribe patterns where messages are broadcast to multiple subscribers. Publishers send messages to topics, and all subscribed consumers receive copies of these messages.
 
 ### Message Delivery Patterns
 
 Message brokers support various delivery patterns to meet different application requirements:
 
-**Point-to-Point** messaging involves direct communication between a producer and a single consumer through a queue. This pattern is ideal for task distribution and load balancing scenarios.
-
-**Publish-Subscribe** messaging allows producers to broadcast messages to multiple consumers simultaneously. This pattern is particularly useful for event notification systems and real-time updates.
-
-**Request-Reply** messaging enables synchronous-like communication in an asynchronous environment. The producer sends a request message and waits for a response from the consumer.
+- **Point-to-Point** messaging involves direct communication between a producer and a single consumer through a queue. This pattern is ideal for task distribution and load balancing scenarios.
+- **Publish-Subscribe** messaging allows producers to broadcast messages to multiple consumers simultaneously. This pattern is particularly useful for event notification systems and real-time updates.
+- **Request-Reply** messaging enables synchronous-like communication in an asynchronous environment. The producer sends a request message and waits for a response from the consumer.
 
 ## Types of Message Brokers
 

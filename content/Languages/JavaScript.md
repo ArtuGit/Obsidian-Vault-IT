@@ -1,4 +1,4 @@
-[[Functions]]
-[[Symbols]]
-[[use strict]]
-[[Types]]
+- [[Functions]]
+- [[Symbols]]
+- [[use strict]]
+- [[Types]]
