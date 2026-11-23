@@ -14,8 +14,8 @@ const config: QuartzConfig = {
     enablePopovers: true,
     analytics: null,
     locale: "en-US",
-    baseUrl: "artu.github.io/English",
-    ignorePatterns: ["private", "templates", ".obsidian", "README.md"],
+    baseUrl: "artugit.github.io/Obsidian-Vault-IT",
+    ignorePatterns: ["private", "templates", ".obsidian", "README.md", "AGENTS.md"],
     defaultDateType: "modified",
     theme: {
       fontOrigin: "googleFonts",

@@ -6,10 +6,10 @@
   "type": "module",
   "author": "artu",
   "license": "MIT",
-  "homepage": "https://artu.github.io/English",
+  "homepage": "https://artugit.github.io/Obsidian-Vault-IT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/artu/IT.git"
+    "url": "https://github.com/ArtuGit/Obsidian-Vault-IT.git"
   },
   "scripts": {
     "quartz": "./quartz/bootstrap-cli.mjs",

@@ -1,0 +1,12 @@
+# Dependencies and build output
+node_modules
+public
+.quartz-cache
+tsconfig.tsbuildinfo
+prof
+
+# OS files
+.DS_Store
+
+# Vault notes that must stay off GitHub (also excluded from the site by ignorePatterns)
+private/
