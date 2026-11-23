@@ -69,12 +69,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AGENTS.md",
+                "file": "index.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "AGENTS"
+              "title": "index"
             }
           }
         ],
@@ -315,13 +315,18 @@
   },
   "active": "de8ab098d2ed3631",
   "lastOpenFiles": [
+    "Node.js/Event Loop.md",
+    "Node.js/CommonJS vs ES Modules.md",
+    "Node.js/Node.js.md",
+    "index.md",
+    "Node.js/Modules.md",
+    "AGENTS.md",
     "ToDo.md",
     "AI Ecosystem/Claude Certified Architect (Foundations).md",
     "AI Ecosystem/Anthropic Exams.md",
     "AI Ecosystem/Providers.md",
     "AI Ecosystem/AI Ecosystem.md",
     "AI Ecosystem/AI Agents.md",
-    "AGENTS.md",
     "AI Ecosystem/LangChain.md",
     "AI Ecosystem/Anthropic Exam.md",
     "AI Ecosystem/detected_pattern Fields.md",
@@ -336,14 +341,9 @@
     "AI Ecosystem/Confidence-Based Routing.md",
     "Back End - Front End/JSON-RPC.md",
     "Back End - Front End/RabbitMQ.md",
-    "AI Ecosystem/AI Tooling.md",
     "AI Ecosystem/Untitled",
-    "index.md",
-    "AI Ecosystem/JavaScript -TypeScript Tools for ML, LLM & Big Data.md",
     "Untitled.base",
     "Untitled.canvas",
-    "2026-09-22.md",
-    "Design/Design Stages.md",
     "Untitled",
     "Images/Vector-DBs.png",
     "Images",
