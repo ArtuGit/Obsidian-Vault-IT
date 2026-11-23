@@ -16,7 +16,7 @@ This directory is Artu's Obsidian vault — the actual IT knowledge base content
 
 - Use Obsidian wikilinks (`[[Note Name]]`) for cross-references, not standard Markdown links — Quartz's `ObsidianFlavoredMarkdown` transformer resolves these, along with Obsidian-style embeds and callouts.
 - Most notes have no YAML frontmatter. Displayed dates default to git/filesystem modification time (`defaultDateType: "modified"` in the root `quartz.config.ts`); add frontmatter only when a note needs to override that.
-- Notes placed under `content/private/` or `content/templates/` are excluded from the published site (Quartz `ignorePatterns`) — use `private/` for drafts or notes not meant to go public.
+- Notes placed under `content/private/` or `content/templates/` are excluded from the published site (Quartz `ignorePatterns`) — use `private/` for drafts or notes not meant to go public (it is also git-ignored, so it is never pushed).
 
 ## Markdown
 Use such markdown elements as 
