@@ -1,2 +1,2 @@
-[[Saga Pattern]]
-[[Dependency Injection Pattern]]
+- [[Saga Pattern]]
+- [[Dependency Injection Pattern]]

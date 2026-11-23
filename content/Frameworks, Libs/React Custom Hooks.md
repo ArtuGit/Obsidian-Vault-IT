@@ -11,11 +11,9 @@ Custom hooks are JavaScript functions that:
 
 ## Key Characteristics
 
-**Hook Rules Apply**: Custom hooks must follow the same rules as built-in hooks - they can only be called at the top level of React functions, not inside loops, conditions, or nested functions.
-
-**Reusability**: The same custom hook can be used in multiple components, with each component getting its own isolated state.
-
-**Composition**: Custom hooks can call other hooks, including other custom hooks, allowing for powerful composition patterns.
+- **Hook Rules Apply**: Custom hooks must follow the same rules as built-in hooks - they can only be called at the top level of React functions, not inside loops, conditions, or nested functions.
+- **Reusability**: The same custom hook can be used in multiple components, with each component getting its own isolated state.
+- **Composition**: Custom hooks can call other hooks, including other custom hooks, allowing for powerful composition patterns.
 
 ## Basic Example
 
@@ -118,13 +116,10 @@ function useLocalStorage(key, initialValue) {
 
 ## Benefits
 
-**Separation of Concerns**: Custom hooks separate stateful logic from UI components, making both easier to test and maintain.
-
-**Reusability**: The same logic can be used across multiple components without duplication.
-
-**Testability**: Custom hooks can be tested independently of components.
-
-**Composition**: Complex functionality can be built by combining simpler custom hooks.
+- **Separation of Concerns**: Custom hooks separate stateful logic from UI components, making both easier to test and maintain.
+- **Reusability**: The same logic can be used across multiple components without duplication.
+- **Testability**: Custom hooks can be tested independently of components.
+- **Composition**: Complex functionality can be built by combining simpler custom hooks.
 
 ## When to Create Custom Hooks
 

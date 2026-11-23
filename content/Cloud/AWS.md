@@ -1,2 +1,2 @@
-[[AWS Event Bridge]]
-[[AWS EventBridge Consumers and Producers]]
+- [[AWS Event Bridge]]
+- [[AWS EventBridge Consumers and Producers]]

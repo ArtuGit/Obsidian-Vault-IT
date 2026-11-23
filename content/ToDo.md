@@ -1,6 +1,6 @@
 ## Microservices
-Event Sourcing vs Event Streaming
-Service Mesh vs API Gateway
+- Event Sourcing vs Event Streaming
+- Service Mesh vs API Gateway
 
 ### Consistency
 - Saga

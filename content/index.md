@@ -1,25 +1,24 @@
 This is Artu's IT knowledge elements.
 
 ## Architecture
-[[Patterns]]
-[[Protocols]]
+- [[Patterns]]
+- [[Protocols]]
 ## Programming Languages
 
-[[JavaScript]]
-[[Python]]
-[[PHP]]
+- [[JavaScript]]
+- [[Python]]
+- [[PHP]]
 
 ## Back End
 
-[[Node.js]]
+- [[Node.js]]
 ## Databases
-[[DB Types]]
-
-[[Postgres]]
+- [[DB Types]]
+- [[Postgres]]
 ## Front End
-[[Front End Check List for Seniors (2025)]]
-[[Browser]]
-[[React.js]]
+- [[Front End Check List for Seniors (2025)]]
+- [[Browser]]
+- [[React.js]]
 ## Back End - Front End
    
 - [[Messaging Systems]]
@@ -32,15 +31,15 @@ This is Artu's IT knowledge elements.
 
 ### Clouds
 
-[[AWS]]
-[[Cloud Migration]]
+- [[AWS]]
+- [[Cloud Migration]]
 
 ## Security
-[[Cross-Site Scripting (XSS)]]
+- [[Cross-Site Scripting (XSS)]]
 
 ## AI Ecosystem
 
-[[AI Ecosystem]]
+- [[AI Ecosystem]]
 ## Design
 
-[[Design Stages]] 
+- [[Design Stages]] 

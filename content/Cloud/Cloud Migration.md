@@ -1,1 +1,1 @@
-[[Gartner 7Rs framework]]
+- [[Gartner 7Rs framework]]

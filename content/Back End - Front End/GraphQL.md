@@ -1,5 +1,5 @@
-[[GraphQL Senior Developer Interview Guide - Complete Questions & Answers]]
-[[GraphQL Federation]]
+- [[GraphQL Senior Developer Interview Guide - Complete Questions & Answers]]
+- [[GraphQL Federation]]
 ## What is GraphQL?
 
 GraphQL is a query language and runtime for APIs that was developed by Facebook (now Meta) in 2012 and open-sourced in 2015. Unlike traditional REST APIs where you make multiple requests to different endpoints, GraphQL allows clients to request exactly the data they need in a single query. This approach provides a more efficient, powerful, and flexible alternative to REST API architecture.

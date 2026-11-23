@@ -10,15 +10,12 @@ ISR allows you to create or update static pages after build time, on-demand. Her
 
 ## Key Features
 
-**Revalidation**: You can set a revalidation time (in seconds) that determines how often a page should be regenerated. When a user requests a page after this time has passed, they get the cached version immediately, but Next.js triggers a regeneration in the background.
-
-**On-Demand Revalidation**: You can also trigger page regeneration programmatically using `revalidatePath()` or `revalidateTag()` functions, useful for when content changes (like CMS updates).
-
-**Fallback Behavior**: For dynamic routes, you can specify fallback behavior:
-
-- `fallback: false` - only pre-generated paths are served
-- `fallback: true` - new paths are generated on-demand
-- `fallback: 'blocking'` - new paths are generated on first request (user waits)
+- **Revalidation**: You can set a revalidation time (in seconds) that determines how often a page should be regenerated. When a user requests a page after this time has passed, they get the cached version immediately, but Next.js triggers a regeneration in the background.
+- **On-Demand Revalidation**: You can also trigger page regeneration programmatically using `revalidatePath()` or `revalidateTag()` functions, useful for when content changes (like CMS updates).
+- **Fallback Behavior**: For dynamic routes, you can specify fallback behavior:
+  - `fallback: false` - only pre-generated paths are served
+  - `fallback: true` - new paths are generated on-demand
+  - `fallback: 'blocking'` - new paths are generated on first request (user waits)
 
 ## Example Implementation
 

@@ -13,21 +13,16 @@ This contrasts with client-side rendering (CSR), where the server sends a minima
 
 ## Benefits of SSR
 
-**Better SEO**: Search engines can easily crawl and index the fully-rendered HTML content, improving search rankings.
-
-**Faster initial page load**: Users see content immediately since the HTML is pre-generated, especially beneficial for users with slower devices or connections.
-
-**Improved Core Web Vitals**: SSR typically provides better Largest Contentful Paint (LCP) and First Contentful Paint (FCP) metrics.
-
-**Better accessibility**: Screen readers and other assistive technologies can access content immediately.
+- **Better SEO**: Search engines can easily crawl and index the fully-rendered HTML content, improving search rankings.
+- **Faster initial page load**: Users see content immediately since the HTML is pre-generated, especially beneficial for users with slower devices or connections.
+- **Improved Core Web Vitals**: SSR typically provides better Largest Contentful Paint (LCP) and First Contentful Paint (FCP) metrics.
+- **Better accessibility**: Screen readers and other assistive technologies can access content immediately.
 
 ## Drawbacks
 
-**Increased server load**: The server must generate HTML for each request, requiring more computational resources.
-
-**Slower navigation**: Subsequent page navigations may be slower since each requires a full server round-trip.
-
-**Complexity**: Managing state between server and client can be challenging, especially with interactive components.
+- **Increased server load**: The server must generate HTML for each request, requiring more computational resources.
+- **Slower navigation**: Subsequent page navigations may be slower since each requires a full server round-trip.
+- **Complexity**: Managing state between server and client can be challenging, especially with interactive components.
 
 ## Popular SSR Frameworks
 

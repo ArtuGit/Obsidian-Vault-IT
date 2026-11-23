@@ -4,67 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "9db1c5897d9c049d",
+        "id": "12d170171afd74a0",
         "type": "tabs",
         "children": [
           {
-            "id": "bfac6944fb612cb0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "AI Ecosystem/AI Ecosystem.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "AI Ecosystem"
-            }
-          },
-          {
-            "id": "3313a53755ca0b31",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "AI Ecosystem/AI Ecosystem.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "AI Ecosystem"
-            }
-          },
-          {
-            "id": "879fc5b2723ff3cd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "AI Ecosystem/Providers.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Providers"
-            }
-          },
-          {
-            "id": "50520005151c62be",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "AI Ecosystem/Anthropic Exams.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Anthropic Exams"
-            }
-          },
-          {
-            "id": "de8ab098d2ed3631",
+            "id": "38ad368e5e1af7a8",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -77,8 +21,7 @@
               "title": "index"
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -295,7 +238,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 448.926025390625
+    "width": 684.708984375,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -313,34 +257,34 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "de8ab098d2ed3631",
+  "active": "38ad368e5e1af7a8",
   "lastOpenFiles": [
+    "AI Ecosystem/AI Ecosystem.md",
+    "AI Ecosystem/Providers.md",
+    "AI Ecosystem/Anthropic Exams.md",
+    "index.md",
+    "AI Ecosystem/AI Agents.md",
+    "AI Ecosystem/AI Tooling.md",
+    "AI Ecosystem/Confidence Calibration.md",
+    "Architecture/Code Complexity.md",
+    "Architecture/Dependency Injection Pattern.md",
+    "Back End - Front End/Front End Check List for Seniors (2025).md",
     "Node.js/Event Loop.md",
     "Node.js/CommonJS vs ES Modules.md",
     "Node.js/Node.js.md",
-    "index.md",
     "Node.js/Modules.md",
     "AGENTS.md",
     "ToDo.md",
     "AI Ecosystem/Claude Certified Architect (Foundations).md",
-    "AI Ecosystem/Anthropic Exams.md",
-    "AI Ecosystem/Providers.md",
-    "AI Ecosystem/AI Ecosystem.md",
-    "AI Ecosystem/AI Agents.md",
     "AI Ecosystem/LangChain.md",
     "AI Ecosystem/Anthropic Exam.md",
     "AI Ecosystem/detected_pattern Fields.md",
     "AI Ecosystem/Confidence Score.md",
-    "AI Ecosystem/Confidence Calibration.md",
     "AI Ecosystem/Confidence Thresholds.md",
     "AI Ecosystem/Stratified Random Sampling.md",
     "AI Ecosystem/Progressive Summarisation Is Lossy.md",
     "AI Ecosystem/Model-Driven Decision-Making.md",
     "AI Ecosystem/Explore Subagent.md",
-    "Languages/Anonymous functions.md",
-    "AI Ecosystem/Confidence-Based Routing.md",
-    "Back End - Front End/JSON-RPC.md",
-    "Back End - Front End/RabbitMQ.md",
     "AI Ecosystem/Untitled",
     "Untitled.base",
     "Untitled.canvas",

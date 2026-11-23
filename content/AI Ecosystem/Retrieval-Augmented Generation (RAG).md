@@ -31,9 +31,9 @@ Retrieval-Augmented Generation (RAG) is a way to make AI systems smarter and mor
 
 RAG is particularly useful because it overcomes some of the big challenges faced by traditional AI language models, such as:
 
-📅 **Staying current:** Traditional AI models can become outdated because they only know what they were last trained on. RAG allows AIs to access the latest information, ensuring they remain useful over time.  
-✅ **Improving accuracy:** By using up-to-date and relevant external information, RAG helps AIs avoid making mistakes or providing incorrect answers.  
-🤝 **Building trust:** When AIs can provide answers that are not only correct but also based on the latest data, people can trust their responses more, which is crucial for applications in fields like healthcare, finance, and customer service.
+- 📅 **Staying current:** Traditional AI models can become outdated because they only know what they were last trained on. RAG allows AIs to access the latest information, ensuring they remain useful over time.
+- ✅ **Improving accuracy:** By using up-to-date and relevant external information, RAG helps AIs avoid making mistakes or providing incorrect answers.
+- 🤝 **Building trust:** When AIs can provide answers that are not only correct but also based on the latest data, people can trust their responses more, which is crucial for applications in fields like healthcare, finance, and customer service.
 
 ### Example to illustrate:
 
@@ -61,12 +61,12 @@ Data collection is the foundation of RAG architecture. The system needs access t
 
 The data sources depend on the purpose of the RAG system. Here are common examples:
 
-📄 **Documents:** PDFs, Word files, and other text-based files. These are often the main source of structured and detailed information.  
-🌐 **Web pages:** Articles, blogs, or FAQs from websites. These provide up-to-date and domain-specific knowledge.  
-🗄️ **Databases:** Structured information from relational or NoSQL databases. Databases offer highly organized and queryable data.  
-🔗 **APIs:** Dynamic data fetched from online services, like weather updates or stock market data. APIs ensure that the system has access to real-time information.  
-📊 **Logs or reports:** Historical data such as system logs or analytics reports. These are useful for answering questions based on past trends or events.  
-✉️ **Emails or chats:** Customer service interactions or team discussions. These help the system learn from real-world conversations and queries.
+- 📄 **Documents:** PDFs, Word files, and other text-based files. These are often the main source of structured and detailed information.
+- 🌐 **Web pages:** Articles, blogs, or FAQs from websites. These provide up-to-date and domain-specific knowledge.
+- 🗄️ **Databases:** Structured information from relational or NoSQL databases. Databases offer highly organized and queryable data.
+- 🔗 **APIs:** Dynamic data fetched from online services, like weather updates or stock market data. APIs ensure that the system has access to real-time information.
+- 📊 **Logs or reports:** Historical data such as system logs or analytics reports. These are useful for answering questions based on past trends or events.
+- ✉️ **Emails or chats:** Customer service interactions or team discussions. These help the system learn from real-world conversations and queries.
 
 The more diverse and rich the sources, the better the system can respond to varied questions. Each source contributes unique strengths, ensuring the RAG system is well-prepared for different types of user inquiries.
 
@@ -93,9 +93,9 @@ Once the data has been collected and transformed into embeddings, the next step 
 
 Without a proper storage system, it would be slow and inefficient to search through large datasets. A vector database allows the system to quickly find information based on meaning, not just keywords. It ensures:
 
-⚡ **Speed:** Fast searches even with millions of embeddings.  
-📈 **Scalability:** Handles growing datasets as more information is added.  
-🎯 **Accuracy:** Retrieves relevant data even when user queries use different words or phrasing.
+- ⚡ **Speed:** Fast searches even with millions of embeddings.
+- 📈 **Scalability:** Handles growing datasets as more information is added.
+- 🎯 **Accuracy:** Retrieves relevant data even when user queries use different words or phrasing.
 
 These features make the vector database a critical part of the RAG architecture, ensuring users get timely and accurate responses.
 
@@ -169,9 +169,9 @@ The retrieved information alone might not be enough for a user-friendly response
 
 **Benefits of generation step**
 
-📜 Clarity: Turns fragmented information into a polished, user-friendly response.  
-🎯 Relevance: Combines retrieved context with AI’s pre-trained knowledge for accurate answers.  
-🌐 Adaptability: Can generate responses in different formats, such as paragraphs, bullet points, or step-by-step instructions.
+- 📜 Clarity: Turns fragmented information into a polished, user-friendly response.
+- 🎯 Relevance: Combines retrieved context with AI’s pre-trained knowledge for accurate answers.
+- 🌐 Adaptability: Can generate responses in different formats, such as paragraphs, bullet points, or step-by-step instructions.
 
 ---
 
@@ -183,9 +183,10 @@ The final step in the RAG architecture is feedback and improvement. This ensures
 
 AI systems are not perfect - they might retrieve less relevant information or generate unclear answers. By analyzing user feedback, the system can identify weaknesses and improve:
 
-🎯 Accuracy: Fix common mistakes in retrieval or generation.  
-📌 Relevance: Prioritize data sources or embeddings that users find most useful.  
-😊 User Experience: Adjust the tone or style of responses to match user expectations.  
+- 🎯 Accuracy: Fix common mistakes in retrieval or generation.
+- 📌 Relevance: Prioritize data sources or embeddings that users find most useful.
+- 😊 User Experience: Adjust the tone or style of responses to match user expectations.
+
 These improvements make the system more reliable, user-friendly, and effective with each interaction.
 
 ## Conclusion

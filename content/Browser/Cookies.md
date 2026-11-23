@@ -22,15 +22,16 @@
 
 ### **Example Flow:**
 
- ✅ **Server sets a cookie:**
- ```http
-Set-Cookie: session_id=abc123; HttpOnly; Path=/; Max-Age=3600
-```
- 🍪 **Browser stores the cookie.**
- 📩 **Browser sends it back automatically on requests:**
- ```http
- Cookie: session_id=abc123
-```
+- ✅ **Server sets a cookie:**
+  ```http
+  Set-Cookie: session_id=abc123; HttpOnly; Path=/; Max-Age=3600
+  ```
+- 🍪 **Browser stores the cookie.**
+- 📩 **Browser sends it back automatically on requests:**
+  ```http
+  Cookie: session_id=abc123
+  ```
+
 ### **Key Properties in Cookies:**
 
 - `HttpOnly` – Not accessible via JavaScript (adds security).

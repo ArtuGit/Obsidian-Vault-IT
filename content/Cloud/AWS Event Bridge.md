@@ -417,13 +417,10 @@ async function publishEventWithMetrics(event: CustomEvent): Promise<void> {
 
 EventBridge excels in several scenarios:
 
-**Microservices Communication**: Decouple services by using events instead of direct API calls. When a user places an order, publish an event that triggers inventory updates, payment processing, and notification sending.
-
-**Application Integration**: Connect SaaS applications with AWS services. For example, route Salesforce opportunity updates to Lambda functions for data processing.
-
-**Real-time Processing**: Build reactive systems that respond immediately to changes. Stream processing pipelines can react to data updates in real-time.
-
-**Audit and Compliance**: Create audit trails by routing all application events to logging and monitoring systems.
+- **Microservices Communication**: Decouple services by using events instead of direct API calls. When a user places an order, publish an event that triggers inventory updates, payment processing, and notification sending.
+- **Application Integration**: Connect SaaS applications with AWS services. For example, route Salesforce opportunity updates to Lambda functions for data processing.
+- **Real-time Processing**: Build reactive systems that respond immediately to changes. Stream processing pipelines can react to data updates in real-time.
+- **Audit and Compliance**: Create audit trails by routing all application events to logging and monitoring systems.
 
 ## Conclusion
 

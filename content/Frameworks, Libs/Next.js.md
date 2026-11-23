@@ -1,1 +1,1 @@
-[[Next.js Fundamentals]]
+- [[Next.js Fundamentals]]

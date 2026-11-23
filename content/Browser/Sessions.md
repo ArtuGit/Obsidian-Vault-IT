@@ -11,14 +11,14 @@ In the backend, a **session** usually means storing **user-specific data on the 
 1. ✅ **User logs in** → Server creates a session and stores data (e.g., user ID).
     
 2. 📦 **Server sends back a session ID** to the client via a `Set-Cookie` header:
-```http
-Set-Cookie: session_id=abc123; HttpOnly; Path=/
-```
-🔁 On future requests, the browser automatically includes:
-```http
-Cookie: session_id=abc123
-```
-🗂️ Server uses the `session_id` to retrieve the user’s data from memory, a database, or a store like **Redis**.   
+    ```http
+    Set-Cookie: session_id=abc123; HttpOnly; Path=/
+    ```
+3. 🔁 On future requests, the browser automatically includes:
+    ```http
+    Cookie: session_id=abc123
+    ```
+4. 🗂️ Server uses the `session_id` to retrieve the user’s data from memory, a database, or a store like **Redis**.   
 
 ### 🛠️ Tools used:
 
