@@ -42,7 +42,7 @@ Stratified sampling — checking accuracy **by document type and field segment**
 - [[Confidence Score]]
 - [[Confidence Thresholds]]
 - [[Confidence-Based Routing]]
-- [[Anthropic Exam]]
+- [[Claude Certified Architect (Foundations)]]
 
 ## Sources
 

@@ -39,7 +39,7 @@ Each field carries its own score because accuracy varies by field type, not just
 - [[Confidence Thresholds]]
 - [[Confidence-Based Routing]]
 - [[Stratified Random Sampling]]
-- [[Anthropic Exam]]
+- [[Claude Certified Architect (Foundations)]]
 
 ## Sources
 

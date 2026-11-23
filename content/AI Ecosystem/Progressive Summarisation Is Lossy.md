@@ -50,7 +50,7 @@ Narrative history can still be summarised freely — it's no longer the thing ca
 ## Related
 
 - [[Explore Subagent]]
-- [[Anthropic Exam]]
+- [[Claude Certified Architect (Foundations)]]
 
 ## Sources
 

@@ -66,7 +66,7 @@ A labelled set only covers the failure modes it contains. A new supplier's invoi
 - [[Confidence Thresholds]]
 - [[Confidence-Based Routing]]
 - [[Stratified Random Sampling]]
-- [[Anthropic Exam]]
+- [[Claude Certified Architect (Foundations)]]
 
 ## Sources
 

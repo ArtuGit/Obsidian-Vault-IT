@@ -32,7 +32,7 @@ Dynamic adaptive decomposition is usually what's happening when a coordinator sp
 
 - [[Explore Subagent]]
 - [[Confidence-Based Routing]]
-- [[Anthropic Exam]]
+- [[Claude Certified Architect (Foundations)]]
 
 ## Sources
 

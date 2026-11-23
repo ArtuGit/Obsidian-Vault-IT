@@ -53,7 +53,7 @@ Good pipeline design doesn't hand the model a bare `confidence: 0.62` and ask it
 - [[Confidence Score]]
 - [[Confidence-Based Routing]]
 - [[Stratified Random Sampling]]
-- [[Anthropic Exam]]
+- [[Claude Certified Architect (Foundations)]]
 
 ## Sources
 

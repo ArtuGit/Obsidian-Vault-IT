@@ -27,7 +27,7 @@ Subagents run in an isolated context window. Delegating a search-heavy task to E
 ## Related
 
 - [[Model-Driven Decision-Making]]
-- [[Anthropic Exam]]
+- [[Claude Certified Architect (Foundations)]]
 
 ## Sources
 

@@ -1,3 +1,3 @@
 ##  Anthropic
 
-[[Anthropic Exam]]
+[[Anthropic Exams]]

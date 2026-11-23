@@ -37,7 +37,7 @@ Without `detected_pattern`, a dismissed finding is a dead end — you know it wa
 ## Related
 
 - [[Confidence Score]]
-- [[Anthropic Exam]]
+- [[Claude Certified Architect (Foundations)]]
 
 ## Sources
 

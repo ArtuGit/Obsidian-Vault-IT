@@ -41,7 +41,7 @@ Confidence-based routing sends low-confidence items to human review, but that al
 - [[Confidence Thresholds]]
 - [[Stratified Random Sampling]]
 - [[Model-Driven Decision-Making]]
-- [[Anthropic Exam]]
+- [[Claude Certified Architect (Foundations)]]
 
 ## Sources
 

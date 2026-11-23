@@ -1,3 +1,5 @@
+Part of [[Anthropic Exams]]
+
 ## Purpose
 
 This is a study hub for the **Claude Certified Architect – Foundations** exam (CCA-F / CCAR-F). It links out to atomic notes covering the specific terms and distinctions the exam tests most aggressively — mostly judgment calls (hardcoded vs. model-driven, raw vs. calibrated confidence, aggregate vs. stratified metrics) rather than trivia. Each linked note has its own worked example, the specific exam trap tied to it, and sources.
