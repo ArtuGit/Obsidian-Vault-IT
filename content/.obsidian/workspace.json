@@ -69,12 +69,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI Ecosystem/Claude Certified Architect (Foundations).md",
+                "file": "AGENTS.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Claude Certified Architect (Foundations)"
+              "title": "AGENTS"
             }
           }
         ],
@@ -315,12 +315,12 @@
   },
   "active": "de8ab098d2ed3631",
   "lastOpenFiles": [
+    "ToDo.md",
+    "AI Ecosystem/Claude Certified Architect (Foundations).md",
     "AI Ecosystem/Anthropic Exams.md",
     "AI Ecosystem/Providers.md",
-    "AI Ecosystem/Claude Certified Architect (Foundations).md",
     "AI Ecosystem/AI Ecosystem.md",
     "AI Ecosystem/AI Agents.md",
-    "ToDo.md",
     "AGENTS.md",
     "AI Ecosystem/LangChain.md",
     "AI Ecosystem/Anthropic Exam.md",
