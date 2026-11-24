@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "index.md",
+                "file": "AI Ecosystem/Dynamic Adaptive Decomposition.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "Dynamic Adaptive Decomposition"
             }
           }
         ]
@@ -259,10 +259,16 @@
   },
   "active": "38ad368e5e1af7a8",
   "lastOpenFiles": [
+    "AI Ecosystem/Claude Certified Architect (Foundations).md",
+    "AI Ecosystem/Few-Shot Prompting.md",
+    "AI Ecosystem/Dynamic Adaptive Decomposition.md",
+    "AI Ecosystem/Confidence Thresholds.md",
+    "AI Ecosystem/Confidence-Based Routing.md",
+    "AI Ecosystem/First-Contact Resolution Target.md",
+    "index.md",
     "AI Ecosystem/AI Ecosystem.md",
     "AI Ecosystem/Providers.md",
     "AI Ecosystem/Anthropic Exams.md",
-    "index.md",
     "AI Ecosystem/AI Agents.md",
     "AI Ecosystem/AI Tooling.md",
     "AI Ecosystem/Confidence Calibration.md",
@@ -275,16 +281,10 @@
     "Node.js/Modules.md",
     "AGENTS.md",
     "ToDo.md",
-    "AI Ecosystem/Claude Certified Architect (Foundations).md",
     "AI Ecosystem/LangChain.md",
     "AI Ecosystem/Anthropic Exam.md",
     "AI Ecosystem/detected_pattern Fields.md",
     "AI Ecosystem/Confidence Score.md",
-    "AI Ecosystem/Confidence Thresholds.md",
-    "AI Ecosystem/Stratified Random Sampling.md",
-    "AI Ecosystem/Progressive Summarisation Is Lossy.md",
-    "AI Ecosystem/Model-Driven Decision-Making.md",
-    "AI Ecosystem/Explore Subagent.md",
     "AI Ecosystem/Untitled",
     "Untitled.base",
     "Untitled.canvas",

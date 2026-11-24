@@ -28,10 +28,12 @@ This is a study hub for the **Claude Certified Architect – Foundations** exam 
 ### Domain 1 — Agentic Architecture & Orchestration
 
 - [[Model-Driven Decision-Making]] — model-driven decisions vs. a hardcoded decision tree, prompt chaining vs. dynamic adaptive decomposition
+- [[Dynamic Adaptive Decomposition]] — goal → investigate → generate/reorder subtasks at runtime; when it beats a fixed pipeline, exam traps
 - [[Explore Subagent]] — Claude Code's built-in read-only search subagent, and the general subagent/Task-tool vocabulary
 
 ### Domain 3 — Prompt Engineering & Structured Output
 
+- [[Few-Shot Prompting]] — first-choice fix for inconsistent output; 2–4 examples with reasoning; what examples don't fix; placement
 - [[detected_pattern Fields]] — structured fields for validation/retry feedback loops; fixable vs. unfixable retry scenarios
 
 ### Domain 5 — Context Management & Reliability
@@ -42,6 +44,7 @@ This is a study hub for the **Claude Certified Architect – Foundations** exam 
 - [[Confidence-Based Routing]] — routing/escalation decisions driven by calibrated confidence
 - [[Stratified Random Sampling]] — auditing automated (high-confidence) output to catch hidden error patterns
 - [[Progressive Summarisation Is Lossy]] — why compaction destroys transactional precision, and the persistent-facts-block mitigation
+- [[First-Contact Resolution Target]] — Scenario 1's 80%+ FCR goal; escalation calibration via explicit criteria + few-shot, valid vs. invalid escalation triggers
 
 ## Sources
 
