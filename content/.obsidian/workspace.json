@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI Ecosystem/tool_choice.md",
+                "file": "AI Ecosystem/AI Agents.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "tool_choice"
+              "title": "AI Agents"
             }
           },
           {
@@ -260,10 +260,10 @@
             "id": "26653c4507010db7",
             "type": "leaf",
             "state": {
-              "type": "graph-analysis",
+              "type": "empty",
               "state": {},
-              "icon": "GA-ICON",
-              "title": "Graph Analysis"
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           },
           {
@@ -275,9 +275,19 @@
               "icon": "GA-ICON",
               "title": "Graph Analysis"
             }
+          },
+          {
+            "id": "44a74279714e3a58",
+            "type": "leaf",
+            "state": {
+              "type": "graph-analysis",
+              "state": {},
+              "icon": "GA-ICON",
+              "title": "Graph Analysis"
+            }
           }
         ],
-        "currentTab": 11
+        "currentTab": 12
       }
     ],
     "direction": "horizontal",
@@ -300,15 +310,16 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "64bf1b59629eeb7c",
+  "active": "44a74279714e3a58",
   "lastOpenFiles": [
+    "AI Ecosystem/About AI Agents.md",
+    "AI Ecosystem/tool_choice.md",
     "AI Ecosystem/Claude Certified Architect (Foundations).md",
     "AI Ecosystem/Anthropic Exams.md",
     "AI Ecosystem/Providers.md",
     "AI Ecosystem/AI Ecosystem.md",
     "AI Ecosystem/AI Agents.md",
     "AI Ecosystem/AI LLM Vocabulary & Abbreviations Reference.md",
-    "AI Ecosystem/tool_choice.md",
     "AI Ecosystem/Exam Stimulus.md",
     "AI Ecosystem/Explore Subagent.md",
     "AI Ecosystem/Dynamic Adaptive Decomposition.md",
@@ -327,7 +338,6 @@
     "Node.js/Node.js.md",
     "Node.js/Modules.md",
     "AGENTS.md",
-    "ToDo.md",
     "AI Ecosystem/Untitled",
     "Untitled.base",
     "Untitled.canvas",
