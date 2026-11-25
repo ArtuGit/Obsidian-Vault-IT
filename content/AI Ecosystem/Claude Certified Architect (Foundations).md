@@ -25,6 +25,10 @@ This is a study hub for the **Claude Certified Architect – Foundations** exam 
 
 ## Notes in this hub
 
+### Exam format
+
+- [[Exam Stimulus]] — the shared scenario a set of questions is built on; what to extract from it, reading strategy, scenario pool
+
 ### Domain 1 — Agentic Architecture & Orchestration
 
 - [[Model-Driven Decision-Making]] — model-driven decisions vs. a hardcoded decision tree, prompt chaining vs. dynamic adaptive decomposition
@@ -35,6 +39,7 @@ This is a study hub for the **Claude Certified Architect – Foundations** exam 
 
 - [[Few-Shot Prompting]] — first-choice fix for inconsistent output; 2–4 examples with reasoning; what examples don't fix; placement
 - [[detected_pattern Fields]] — structured fields for validation/retry feedback loops; fixable vs. unfixable retry scenarios
+- [[tool_choice]] — `auto` / `any` / forced `tool` / `none`; `any` for guaranteed structured output with unknown document type; real-API restrictions to re-check after 7 Dec
 
 ### Domain 5 — Context Management & Reliability
 
