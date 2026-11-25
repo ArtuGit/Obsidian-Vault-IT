@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI Ecosystem/AI Agents.md",
+                "file": "AI Ecosystem/Harness.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "AI Agents"
+              "title": "Harness"
             }
           },
           {
@@ -310,15 +310,16 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "44a74279714e3a58",
+  "active": "64bf1b59629eeb7c",
   "lastOpenFiles": [
+    "AI Ecosystem/AI Agents.md",
+    "AI Ecosystem/Harness.md",
     "AI Ecosystem/About AI Agents.md",
     "AI Ecosystem/tool_choice.md",
     "AI Ecosystem/Claude Certified Architect (Foundations).md",
     "AI Ecosystem/Anthropic Exams.md",
     "AI Ecosystem/Providers.md",
     "AI Ecosystem/AI Ecosystem.md",
-    "AI Ecosystem/AI Agents.md",
     "AI Ecosystem/AI LLM Vocabulary & Abbreviations Reference.md",
     "AI Ecosystem/Exam Stimulus.md",
     "AI Ecosystem/Explore Subagent.md",
@@ -337,7 +338,6 @@
     "Node.js/CommonJS vs ES Modules.md",
     "Node.js/Node.js.md",
     "Node.js/Modules.md",
-    "AGENTS.md",
     "AI Ecosystem/Untitled",
     "Untitled.base",
     "Untitled.canvas",
